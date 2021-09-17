@@ -48,3 +48,20 @@ li {
   width: 60px;
   padding: 5px;
 }
+.deleteBtn {
+  width: 18px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.deleteAllBtn {
+  text-align: right;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.deleteAllBtn:hover {
+  text-decoration: underline;
+}
