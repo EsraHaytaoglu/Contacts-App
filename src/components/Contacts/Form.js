@@ -11,7 +11,17 @@ function Form() {
     const handleSubmit =(e)=> {
         e.preventDefault();
 
-        dispatch(addContact({id:nanoid(), name }))
+        if(!name) return false;
+
+        // const names = name.split(',')
+
+        // names.forEach(name => dispatch(addContact({id:nanoid(), name })))
+        // const data = names.map((name)=> ({id: nanoid(), name}));
+        // dispatch(addContacts(data));
+
+        dispatch(addContact({ id:nanoid(), name}))
+        
+        setName('');
         
 
     }
