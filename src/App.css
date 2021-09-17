@@ -49,6 +49,7 @@ li {
   padding: 5px;
 }
 .deleteBtn {
+  padding: 5px;
   width: 18px;
   height: 20px;
   background-color: red;
@@ -64,4 +65,10 @@ li {
 
 .deleteAllBtn:hover {
   text-decoration: underline;
+}
+
+.edit span {
+  margin-left: 10px;
+  font-size: 12px;
+  cursor: pointer;
 }
