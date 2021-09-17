@@ -9,11 +9,11 @@ function List() {
     // const total = useSelector(contactSelectors.selectTotal); => sayısını veriyor.
     
     return (
-        <div>
+        <ul className="list">
             {contacts.map(contact => (
                 <Item key={contact.id} item={contact} />
             ))}
-        </div>
+        </ul>
     )
 }
 
